@@ -4,13 +4,13 @@ int main() {
      
     // Write Your Code Here
     {
-        printf("January");
+        printf("January," );
     }
     {
-        printf("February");
+        printf("February," );
     }
     {
-        printf("March");
+        printf("March," );
     }
     {
         printf("April");
