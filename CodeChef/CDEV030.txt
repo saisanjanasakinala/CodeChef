@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    // TODO: Print header with tab escape sequences
+    printf("Item:\t\tPrice:\t\tQuantity:");
+
+    // TODO: Print Pen details with tab spacing
+    printf("Pen\t\t$1.20\t\t10");
+
+    // TODO: Print Notebook details with tab spacing
+    printf("Notebool\t\t$2.50\t\t5");
+
+    return 0;
+}
