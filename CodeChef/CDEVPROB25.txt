@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    // Declare and initialize student details
+    char grade='B';
+    int id=202331;
+    int number=12;
+    printf("Student Grade: ",grade);
+    printf("Student ID: ",id);
+    printf("Section Number: ",number);
+
+    // Print student details
+    
+
+    return 0;
+}
