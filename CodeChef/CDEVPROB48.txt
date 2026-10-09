@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    // Declare and initialize variables
+    int zooID = 49;       // Zoo ID (integer)
+    int section = 100;    // Zoo section (integer)
+    float ticketPrice = 25.75f; // Ticket price (float)
+
+    // Explicit conversion from int to char
+    char zooIDChar = (char)zooID; 
+    char sectionChar = (char)section; 
+
+    // Output all the information
+    printf("Zoo ID (converted to char): %c\n", zooIDChar);     
+    printf("Zoo Section (converted to char): %c\n", sectionChar); 
+    printf("Ticket Price: %f\n", ticketPrice);  
+
+    return 0;
+}
