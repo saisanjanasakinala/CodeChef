@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    
+    printf("First line of code,\n");
+    printf("\tA  new world starts to form,\n");
+    printf("\tHello, World rings out.");
+
+    return 0;
+}
