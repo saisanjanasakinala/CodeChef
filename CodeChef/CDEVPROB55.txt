@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+// Global variable to track present students
+int presentStudents = 450;
+
+int main() {
+    printf("Present students before update: %d\n", presentStudents);
+
+    // Update the global variable to reflect newly arrived students
+    presentStudents = 480;
+
+    printf("Present students after update: %d\n", presentStudents);
+
+    return 0;
+}
