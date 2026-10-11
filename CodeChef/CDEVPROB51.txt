@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    // Starting the main block
+
+    {
+        // This block represents a temperature check in the room
+        int temperature = 26;  // Block-level variable
+        printf("Inside block: Temperature is %d degrees.\n", temperature);
+    }
+
+    // The variable 'temperature' is not accessible here
+ // This will cause a compile error — comment it out to get the correct result.
+
+    return 0;
+}
