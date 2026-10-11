@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+// Declare the global variable for book count here
+int before=850;
+int main() {
+    // Write your code here
+printf("Books available before update:%d ",before);
+int after=870;
+printf("Books available after update:%d ",after);
+    return 0;
+}
