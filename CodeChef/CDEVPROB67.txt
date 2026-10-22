@@ -6,8 +6,10 @@ int main() {
     // Write your code
 
     // Calculate the total marks by adding all three subject scores
-    float total=263.8;
-    
+    float sub1=85.5;
+    float  sub2=90.0;
+    float sub3=88.3;
+    float total=sub1+sub2+sub3;
     
     
     printf("Total Marks = %.1f\n", total);
