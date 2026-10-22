@@ -1,0 +1,26 @@
+#include <stdio.h>  
+
+int main() {
+    // Declare and assign calories for three meals
+    int breakfast = 350;  // Calories from breakfast
+    int lunch = 600;      // Calories from lunch
+    int dinner = 500;     // Calories from dinner
+
+    // Declare and assign calories burned during exercise
+    int burned = 400;     // Calories burned through physical activity
+    int totalCal=breakfast+lunch+dinner;
+    int total=breakfast+lunch+dinner-burned;
+    printf("Total Calories Consumed: %d\n ",totalCal);
+    printf("Calories Burned: %d\n ",burned);
+    printf("Net Calorie Intake: %d\n ",total);
+    
+    // Calculate the total calories consumed
+    
+
+    // Calculate the net calorie intake after exercise
+    
+
+    // Print the total, burned, and net calorie values
+
+    return 0;  
+}
