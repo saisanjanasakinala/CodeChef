@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    // Declare the base bill amount and tip amount
+    double billAmount = 1000.0;  // in INR
+    double tip = 100.0;
+
+    int friends = 5; // Number of friends sharing the bill
+
+    // Write Your Code
+    double total=billAmount+tip;
+    double pay=total/friends;
+
+    // Print the amount
+    printf("Total Bill: INR %.2f\n", total);
+    printf("Each Person Pays: INR %.2f\n", pay);
+    
+    return 0;
+}
