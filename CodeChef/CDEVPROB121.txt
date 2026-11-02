@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int score = 25;
+    int lives = 3;
+
+    // Use pre-decrement for score
+    printf("Score before task: %d\n", --score);  
+
+    // Decrease lives
+    lives--;  
+    printf("Lives remaining after task: %d\n", lives);
+
+    printf("Score after task: %d\n", score);
+
+    return 0;
+}
