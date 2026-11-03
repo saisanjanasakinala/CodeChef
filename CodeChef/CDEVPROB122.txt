@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int totalMarks = 435;       // Total marks obtained by the student
+    int numberOfSubjects = 5;   // Number of subjects
+    float averageMarks;         
+    averageMarks = totalMarks / (float)(--numberOfSubjects);
+
+    // Print the average marks
+    printf("Average marks: %f\n", averageMarks);
+
+    return 0;
+}
