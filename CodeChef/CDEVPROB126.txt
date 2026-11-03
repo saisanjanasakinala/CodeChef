@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int baseScore = 100;   // Base points from purchases
+    int bonus = 20;        // Initial bonus points
+    int redeemed = 5;      // Points to be redeemed
+
+    // Use post-increment to add bonus first, then increment
+    int total = baseScore + bonus++;
+    printf("Score after bonus addition: %d\n", total);  
+
+    // Use pre-decrement to redeem one less point than original
+    total -= --redeemed;
+    printf("Score after redemption: %d\n", total);      
+
+    // Show final values of bonus and redeemed
+    printf("Final bonus value: %d\n", bonus);           
+    printf("Final redeemed value: %d\n", redeemed);     
+
+    return 0;
+}
