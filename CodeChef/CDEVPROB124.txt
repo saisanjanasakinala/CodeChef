@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int maxAttempts = 3;
+    int bonusAttempts = 2;
+    int total, remaining;
+
+    // Use post-increment in an expression: bonusAttempts is used as 2, then becomes 3
+    total = maxAttempts + bonusAttempts++;
+    printf("Total attempts allowed: %d\n", total);  // 3 + 2 = 5
+
+    // Use pre-decrement in an expression: maxAttempts becomes 2, then used
+    remaining = --maxAttempts + 1;
+    printf("Remaining attempts after reduction: %d\n", remaining);  // 2 + 1 = 3
+
+    // Final values of the variables
+    printf("Final bonusAttempts: %d\n", bonusAttempts);  // 3
+    printf("Final maxAttempts: %d\n", maxAttempts);      // 2
+
+    return 0;
+}
